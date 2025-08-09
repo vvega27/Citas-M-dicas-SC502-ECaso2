@@ -1,0 +1,118 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff0f5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffb6c1;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ff69b4;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.topbar {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.topbar .user {
+    font-weight: bold;
+}
+
+.topbar button {
+    padding: 6px 12px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.topbar button:hover {
+    background-color: #ff1493;
+}
+
+main {
+    padding: 20px;
+}
+
+button#btnNew {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+button#btnNew:hover {
+    background-color: #ff1493;
+}
+
+
+table.grid {
+    border-collapse: collapse;
+    width: 100%;
+    background: white;
+}
+
+table.grid th, table.grid td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table.grid th {
+    background-color: #ffb6c1;
+}
+.login-container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 20px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.login-container h2 {
+    text-align: center;
+    color: #ff1493;
+}
+
+.login-container label {
+    font-weight: bold;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 8px;
+    background-color: #ff69b4;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #ff1493;
+}
